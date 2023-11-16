@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
+import ProductCard from './Components/ProductCard';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <NavBar/>
+    <ItemListContainer greeting='Ofertón de Productos '/>
+
+    <ProductCard title='Producto 1' price={999.99} img=""/>
+    <p>Aprovecha este producto por oferta limitada!</p>
+    <button>Comprar ya !!!</button>
+
+    <ProductCard title='Producto 2' price={149.99} img=""/>
+    <p>Aprovecha este producto por oferta limitada!</p>
+    <button>Comprar ya !!!</button>
+
+    <ProductCard title='Producto 3' price={129.99} img=""/>
+    <p>Aprovecha este producto por oferta limitada!</p>
+    <button>Suscribite !!!</button>
+
+
+
+
+    
     </div>
+
+
+
   );
+
 }
 
 export default App;
