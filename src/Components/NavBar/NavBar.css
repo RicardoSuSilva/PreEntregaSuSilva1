@@ -4,14 +4,14 @@
   }
   
   .navbar-brand {
-    color: #fff;
+    color: #eceaea;
     font-size: 24px;
     font-weight: bold;
-    margin-right: 2rem; /* Agrega margen a la derecha para separar del resto de los elementos */
+    margin-right: 2.5rem; /* Agrega margen a la derecha para separar del resto de los elementos */
   }
   
   .nav-link {
-    color: #fff;
+    color: #4a7e06;
     font-size: 18px;
     margin-right: 20px;
   }
@@ -28,7 +28,7 @@
      /* Ajuste de relleno para dar espacio alrededor del contenido */
   }
   
-  .cart-widget-button {
+  /*.cart-widget-button {
     background-color: #ffcc00;
     color: #333;
     border: none;
@@ -40,4 +40,4 @@
   
   .cart-widget-button:hover {
     background-color: #ffd633;
-  }
+  }*/

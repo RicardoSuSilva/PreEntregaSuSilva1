@@ -1,15 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
 
-#root {
+.App {
+  background-color: #f4f4f4;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*:root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 
+}*/
 
-}
-
-
-ProductCard{
+/*ProductCard{
 
   width: 100vw;
   display: flex;
@@ -20,8 +32,7 @@ ProductCard{
   padding: 25px 60px;
   margin-bottom: 30px;
 
-
-} 
+} */
 
 
 
