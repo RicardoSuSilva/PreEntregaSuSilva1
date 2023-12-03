@@ -11,13 +11,13 @@
   }
   
   .nav-link {
-    color: #4a7e06;
+    color: #066c7e;
     font-size: 18px;
     margin-right: 20px;
   }
   
   .nav-link:hover {
-    color: #ffcc00;
+    color: #1100ff;
   }
   
   .container {
@@ -28,7 +28,7 @@
      /* Ajuste de relleno para dar espacio alrededor del contenido */
   }
   
-  /*.cart-widget-button {
+  .cart-widget-button {
     background-color: #ffcc00;
     color: #333;
     border: none;
@@ -40,4 +40,4 @@
   
   .cart-widget-button:hover {
     background-color: #ffd633;
-  }*/
+  }
