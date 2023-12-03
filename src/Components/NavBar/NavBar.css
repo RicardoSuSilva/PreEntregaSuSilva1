@@ -1,17 +1,17 @@
 .navbar {
-    background-color: #333;
+    background-color: #f5f0f0;
     width: 100%; /* Ajuste para que ocupe toda la pantalla */
   }
   
   .navbar-brand {
-    color: #eceaea;
+    color: #f7e9e9;
     font-size: 24px;
     font-weight: bold;
     margin-right: 2.5rem; /* Agrega margen a la derecha para separar del resto de los elementos */
   }
   
   .nav-link {
-    color: #066c7e;
+    color: #f7fcfd;
     font-size: 18px;
     margin-right: 20px;
   }
